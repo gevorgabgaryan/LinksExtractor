@@ -1,0 +1,35 @@
+{
+  "name": "getwebsitealllinkswithstatuses",
+  "version": "1.0.0",
+  "description": "Extracting Website All Links wit statuses",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./app.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gevorgabgaryan/getWebsiteAllLinksWithStatuses.git"
+  },
+  "keywords": [
+    "extarcting",
+    "links"
+  ],
+  "author": "Gevorg Angaryan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gevorgabgaryan/getWebsiteAllLinksWithStatuses/issues"
+  },
+  "homepage": "https://github.com/gevorgabgaryan/getWebsiteAllLinksWithStatuses#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "nodemon": "^2.0.7",
+    "puppeteer": "^9.0.0",
+    "puppeteer-core": "^9.0.0"
+  }
+}
